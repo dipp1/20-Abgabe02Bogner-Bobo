@@ -33,10 +33,10 @@ public class StringQueue implements IQueue {
 	}
 
 	@Override
-	public String poll() {
+	public String poll() { // fixed the size bug
 		String element = peek();
 
-		if (elements.size() == 0) {
+		if (elements.size() > 0) {
 			elements.remove(0);
 		}
 
@@ -56,10 +56,11 @@ public class StringQueue implements IQueue {
 	@Override
 	public String peek() {
 		String element;
-		if (elements.size() > 0)
+		if (elements.size() > 0) {
 			element = elements.get(0);
-		else
+		} else {
 			element = null;
+		}
 
 		return element;
 	}
