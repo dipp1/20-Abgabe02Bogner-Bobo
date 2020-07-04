@@ -8,5 +8,12 @@ import org.junit.jupiter.api.Test;
 class StringQueueTest {
 
    // TODO Write your own tests
+	
+	public StringQueueTest() {
+		super();
+	}
+	
+	
+	
 
 }

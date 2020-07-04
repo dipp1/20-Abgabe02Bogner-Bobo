@@ -1,0 +1,6 @@
+/.settings
+/bin
+/target
+.classpath
+.project
+/src/main/java/at/fhj/iit/Main.java
