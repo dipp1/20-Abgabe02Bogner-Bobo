@@ -49,10 +49,9 @@ public class StringQueue implements IQueue {
 //		element = "";
 		if (element == null) {
 			throw new NoSuchElementException("there's no element any more");
-		} else {
-			return element;
 		}
 
+		return element;
 
 	}
 
@@ -71,8 +70,10 @@ public class StringQueue implements IQueue {
 	@Override
 	public String element() {
 		String element = peek();
-		if (element == null)
+
+		if (element == null) {
 			throw new NoSuchElementException("there's no element any more");
+		}
 
 		return element;
 	}
