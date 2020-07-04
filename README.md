@@ -6,16 +6,16 @@ Repository for exercise 02 of configuration management.
 
 ### Goals:
 
-[x] create repository
-[x] add Readme with task list
-[ ] add meta data to pom.xml (incl. photo)
-[ ] no warnings with clean, validate, compile, test and site
-[ ] find 3 mistakes in src files and correct them
-[ ] create new implementation, working with generics
-[ ] added Javadoc to new implementation and tests
-[ ] JUnit tests, try to reach 100% coverage
-[ ] Maven Site documentation
-[ ] write lab report
+- [x] create repository
+- [x] add Readme with task list
+- [ ] add meta data to pom.xml (incl. photo)
+- [ ] no warnings with clean, validate, compile, test and site
+- [ ] find 3 mistakes in src files and correct them
+- [ ] create new implementation, working with generics
+- [ ] added Javadoc to new implementation and tests
+- [ ] JUnit tests, try to reach 100% coverage
+- [ ] Maven Site documentation
+- [ ] write lab report
 
 
 
