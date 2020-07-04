@@ -17,20 +17,16 @@ Repository for exercise 02 of configuration management.
 - [ ] Maven Site documentation
 - [ ] write lab report
 
-
-
 <br />  
 
 #### Provided files include:
 
-
-   IQueue.jav
-   StringQueue.java
-   StringQueueTest.java
-   pom.xml
+    IQueue.java
+    StringQueue.java
+    StringQueueTest.java
+    pom.xml
 
 <br />  
-
 
 ***
 
