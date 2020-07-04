@@ -1,40 +1,37 @@
-# Software Configuration Management #
+# Configuration Management UE2
 
-**EDUCATION Repository**
+Repository for exercise 02 of configuration management.
 
-## Test Automation with JUnit5 ##
+<br />  
 
-### Queue Exercise ###
+### Goals:
 
-**Basic Exercise:**
+[x] create repository
+[x] add Readme with task list
+[ ] add meta data to pom.xml (incl. photo)
+[ ] no warnings with clean, validate, compile, test and site
+[ ] find 3 mistakes in src files and correct them
+[ ] create new implementation, working with generics
+[ ] added Javadoc to new implementation and tests
+[ ] JUnit tests, try to reach 100% coverage
+[ ] Maven Site documentation
+[ ] write lab report
 
-- implement test methods for StringQueue
-- try to get 100% Test Coverage
 
-the final class structure should be
 
-- 1 test class
-- 1 source class
+<br />  
 
-*Only Basic Exercise necessary for final exercise in summer term 2019*
+#### Provided files include:
 
-**Extended Exercise:**
 
-- create Integer Queue Implementation (new class)
-- implement test methods for IntQueue
-- try to get 100% Test Coverage
+   IQueue.jav
+   StringQueue.java
+   StringQueueTest.java
+   pom.xml
 
-the final class structure should be
+<br />  
 
-- 2 test classes
-- 2 source classes
 
-**Advanced Exercise:**
+***
 
-- create new Abstract Class with Generics
-- implement both 
-
-the final class structure should be
-
-- 2 test classes
-- ONLY 1 source class
+Made by Nina Bogner, Tiberiu-Arthur Nowotny (MSD19)
