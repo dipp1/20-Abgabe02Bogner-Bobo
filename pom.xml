@@ -9,42 +9,44 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>Queue</name>
-  <url>https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Queue</url>
+  <url>https://github.com/GoldNova/20-Abgabe02-Bogner-Nowotny</url>
 
   <developers>
     <developer>
-      <id>michaelulm</id>
-      <name>Michael Ulm</name>
-      <email>michael.ulm@fh-joanneum.at</email>
-      <url>https://www.michael-ulm.at</url>
+      <id>thisAndDead</id>
+      <name>Nina Bogner</name>
+      <email>nina.bogner@edu.fh-joanneum.at</email>
+      <url>https://github.com/thisAndDead</url>
       <organization>FH JOANNEUM GmbH</organization>
       <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
       <roles>
-        <role>Lecturer</role>
+        <role>Student</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties>
-        <picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
+        <picUrl>https://avatars3.githubusercontent.com/u/62705019</picUrl>
       </properties>
     </developer>
     <developer>
-      <id>Rigbin</id>
-      <name>Harald Schwab</name>
-      <email>harald.schwab2@fh-joanneum.at</email>
-      <url>https://github.com/Rigbin</url>
+      <id>GoldNova</id>
+      <name>Tiberiu-Arthur Nowotny</name>
+      <email>tiberiu-arthur.nowotny@edu.fh-joanneum.at</email>
+      <url>https://github.com/GoldNova</url>
       <organization>FH JOANNEUM GmbH</organization>
       <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
       <roles>
-        <role>Researcher</role>
+        <role>Student</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
-      <properties/>
+      <properties>
+        <picUrl>https://avatars1.githubusercontent.com/u/50460089</picUrl>
+      </properties>
     </developer>
   </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.comiler.release>11</maven.comiler.release>
+    <maven.compiler.release>11</maven.compiler.release>
   </properties>
 
   <dependencies>
@@ -83,6 +85,39 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.1</version>
       </plugin>
-    </plugins>
-  </build>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+            
+        </plugins>
+    </build>
+
+
+<reporting>
+  <plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.1.0</version> 
+    </plugin>
+    <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-javadoc-plugin</artifactId>
+         <version>3.2.0</version>
+           <configuration>
+            <show>public</show>
+           </configuration>
+   </plugin>
+  </plugins>
+</reporting>
+
+
 </project>
