@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class GenericQueueAsStringTest {
+public class GenericQueueAsStringTest { // very important that it's public because otherwise maven site does not work
 
 	private GenericsQueue genStringQueue;
 

@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 import org.junit.jupiter.api.Assertions;
 
 @DisplayName("Testing StringQueue implementation")
-public class StringQueueTest {
+public class StringQueueTest { // very important that it's public because otherwise maven site does not work
 
 	private StringQueue testQueue;
 

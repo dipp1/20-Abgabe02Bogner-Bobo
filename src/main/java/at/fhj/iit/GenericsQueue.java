@@ -41,7 +41,6 @@ public class GenericsQueue<YourClass> {
 
 	}
 
-	
 	/**
 	 * Returns the head (first) element and also deletes it. That is, we cannot get
 	 * it again. If no element exists (when queue is empty), the method returns
@@ -58,7 +57,7 @@ public class GenericsQueue<YourClass> {
 
 		return element;
 	}
-	
+
 	/**
 	 * It also returns and deletes the head element like poll(), but with a small
 	 * difference. This method throws NoSuchElementException if the queue is empty.
@@ -92,7 +91,7 @@ public class GenericsQueue<YourClass> {
 
 		return element;
 	}
-	
+
 	/**
 	 * It works similar to peek() but with a small difference (returns but does not
 	 * delete the element). It throws NoSuchElementException when the queue is
@@ -109,8 +108,7 @@ public class GenericsQueue<YourClass> {
 
 		return element;
 	}
-	
-	
+
 	/**
 	 * Returns the max size of the queue
 	 * 
