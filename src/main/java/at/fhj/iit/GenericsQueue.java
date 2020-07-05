@@ -1,3 +1,7 @@
+/**
+ * This class represents a String Queue
+ * @author Tiberiu-Arthur Nowotny
+ */
 package at.fhj.iit;
 
 import java.util.ArrayList;
@@ -9,10 +13,21 @@ public class GenericsQueue<YourClass> {
 	private List<YourClass> elements = new ArrayList<YourClass>();
 	private int maxSize;
 
+	/**
+	 * Queue default constructor
+	 * 
+	 * @param maxsize is the maximal size of the queue
+	 */
 	public GenericsQueue(int maxsize) {
 		maxSize = maxsize;
 	}
 
+	/**
+	 * Adds Objects in the Queue
+	 * 
+	 * @param obj is the object you want to put in the queue
+	 * @return either true if it is successfully added or false if the queue is full
+	 */
 	public boolean offer(YourClass obj) { // Fixed the return
 
 		if (elements.size() != maxSize) {
@@ -26,6 +41,14 @@ public class GenericsQueue<YourClass> {
 
 	}
 
+	
+	/**
+	 * Returns the head (first) element and also deletes it. That is, we cannot get
+	 * it again. If no element exists (when queue is empty), the method returns
+	 * null.
+	 * 
+	 * @return either the object or null
+	 */
 	public YourClass poll() { // fixed the size bug
 		YourClass element = peek();
 
@@ -35,7 +58,13 @@ public class GenericsQueue<YourClass> {
 
 		return element;
 	}
-
+	
+	/**
+	 * It also returns and deletes the head element like poll(), but with a small
+	 * difference. This method throws NoSuchElementException if the queue is empty.
+	 *
+	 * @return either the element which has a value or is null
+	 */
 	public YourClass remove() { // fixed the remove function
 		YourClass element = poll();
 
@@ -47,6 +76,12 @@ public class GenericsQueue<YourClass> {
 
 	}
 
+	/**
+	 * Returns the head element but it does not delete it. That is, we can get it
+	 * again. Returns null when the queue is empty.
+	 *
+	 * @return either the element or null if empty
+	 */
 	public YourClass peek() {
 		YourClass element;
 		if (elements.size() > 0) {
@@ -57,7 +92,14 @@ public class GenericsQueue<YourClass> {
 
 		return element;
 	}
-
+	
+	/**
+	 * It works similar to peek() but with a small difference (returns but does not
+	 * delete the element). It throws NoSuchElementException when the queue is
+	 * empty.
+	 *
+	 * @return either the element or null
+	 */
 	public YourClass element() {
 		YourClass element = peek();
 
@@ -67,7 +109,13 @@ public class GenericsQueue<YourClass> {
 
 		return element;
 	}
-
+	
+	
+	/**
+	 * Returns the max size of the queue
+	 * 
+	 * @return the max size of the queue
+	 */
 	public int getMaxSize() {
 		return maxSize;
 	}
