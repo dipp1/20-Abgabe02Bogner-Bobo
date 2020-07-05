@@ -11,7 +11,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class GenericQueueAsIntegerTest {
+public class GenericQueueAsIntegerTest {
 
 	private GenericsQueue genIntQueue;
 
