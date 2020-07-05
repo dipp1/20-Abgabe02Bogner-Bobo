@@ -8,13 +8,19 @@ For example if you line up on the cash register, you are forming a queue with ot
 
     FIFO - first in first out is a principle which describes every queue
 
-There are also priority queues which not only take the order into account, but also the priority of every element. If you are an important politician, you will get rung up first, no matter when you entered the queue. Everything will get held up for that politician.
+There are also priority queues which not only take the order into account, but also the priority of every element. If you are an important politician, you will get rung up first, doesn't matter when you entered the queue. Everything will get held up for that politician.
 
-### Used in
+### Used for
 
 Schedulers for operating systems. Schedulers can decide which process to run next according to the principle of a priority queue.
 
 A waiting list for a doctor can also be seen as a queue.
 
 ## How can you test a queue?
+
+Since a queue is basically just a list, we can test basic functions (e.g. size) like an ArrayList.
+
+For the queue specific methods, we need to test if the first object in a queue is actually the first object being removed from the queue.
+
+
 
