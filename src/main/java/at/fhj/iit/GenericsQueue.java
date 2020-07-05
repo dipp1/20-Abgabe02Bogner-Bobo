@@ -38,7 +38,7 @@ public class GenericsQueue<YourClass> {
 
 	public YourClass remove() { // fixed the remove function
 		YourClass element = poll();
-		
+
 		if (element == null) {
 			throw new NoSuchElementException("there's no element any more");
 		}

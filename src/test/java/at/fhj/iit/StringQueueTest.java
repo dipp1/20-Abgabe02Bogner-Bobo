@@ -69,7 +69,7 @@ public class StringQueueTest {
 	public void testRemove() {
 
 		testQueue.offer("Hund");
-//		testQueue.offer("Katze");
+
 
 		assertEquals("Hund", testQueue.remove());
 
