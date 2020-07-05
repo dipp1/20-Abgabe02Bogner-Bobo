@@ -12,8 +12,8 @@ Repository for exercise 02 of configuration management.
 - [x] no warnings with clean, validate, compile, test and site
 - [x] find 3 mistakes in src files and correct them
 - [x] create new implementation, working with generics
-- [ ] added Javadoc to new implementation and tests
-- [ ] JUnit tests, try to reach 100% coverage
+- [x] added Javadoc to new implementation and tests
+- [x] JUnit tests, try to reach 100% coverage
 - [ ] Maven Site documentation
 - [ ] write lab report
 
