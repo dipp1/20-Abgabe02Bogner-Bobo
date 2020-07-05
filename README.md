@@ -8,8 +8,8 @@ Repository for exercise 02 of configuration management.
 
 - [x] create repository
 - [x] add Readme with task list
-- [ ] add meta data to pom.xml (incl. photo)
-- [ ] no warnings with clean, validate, compile, test and site
+- [x] add meta data to pom.xml (incl. photo)
+- [x] no warnings with clean, validate, compile, test and site
 - [ ] find 3 mistakes in src files and correct them
 - [ ] create new implementation, working with generics
 - [ ] added Javadoc to new implementation and tests
