@@ -14,8 +14,8 @@ Working with GitHub, Generics, JUnit, Javadoc and Maven.
 - [x] create repository
 	- two contributors working together
 - [x] add Readme with task list
-- [x] Maven: no warnings with clean, validate, compile, test and site
-- [x] Maven & Pom: add meta data to pom.xml (incl. photo)
+- [x] Maven: no warnings with ```mvn clean```, ```validate```, ```compile```, ```test``` and ```site```
+- [x] Maven & Pom: add meta data to ```pom.xml``` (incl. photo)
 - [x] find 3 mistakes in ```StringQueue.java``` and correct them
 - [x] create new implementations, working with generics
 	- add Javadoc to new implementation
@@ -24,7 +24,7 @@ Working with GitHub, Generics, JUnit, Javadoc and Maven.
 	- test generic version with another different data type [optional]
 	- try to reach 100% test coverage
 	- Javadoc comments
-- [ ] Maven Site documentation
+- [x] Maven Site documentation
 	- manually add new pages (answer questions)
 	- use code snippets or photos
 	- further questions [optional]
