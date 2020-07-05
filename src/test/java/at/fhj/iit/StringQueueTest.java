@@ -100,7 +100,7 @@ public class StringQueueTest {
 		});
 
 		testQueue.offer("Hund");
-		assertEquals("Hund", testQueue.remove());
+		assertEquals("Hund", testQueue.element());
 
 	}
 
