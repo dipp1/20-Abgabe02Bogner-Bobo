@@ -1,0 +1,12 @@
+<project>
+    <body>
+        <menu ref="modules"/>
+        <menu name="Overview">
+            <item name="Home" href="index.html"/>
+            <item name="Queues" href="queues.html"/>
+            <item name="Generics" href="generics.html"/>
+            <item name="Code Coverage" href="code_coverage.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
