@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 import org.junit.jupiter.api.Assertions;
 
 @DisplayName("Testing StringQueue implementation")
-class StringQueueTest {
+public class StringQueueTest {
 
 	private StringQueue testQueue;
 
