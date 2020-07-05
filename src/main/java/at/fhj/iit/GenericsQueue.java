@@ -1,25 +1,22 @@
-
 package at.fhj.iit;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-// there's some Bugs included, try to debug the code and fix the Bugs
-// there are different Bugs, wrong implementation, typos, ...
-// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
-
-public class StringQueue implements IQueue {
-
-	private List<String> elements = new ArrayList<String>();
+public class GenericsQueue<YourClass> {
+	
+//	private YourClass tIstUnserGenerischerDatentyp;
+	
+	private List<YourClass> elements = new ArrayList<YourClass>();
 	private int maxSize;
 
-	public StringQueue(int maxsize) {
+	public GenericsQueue(int maxsize) {
 		maxSize = maxsize;
 	}
 
-	@Override
-	public boolean offer(String obj) { // Fixed the return
+//	@Override
+	public boolean offer(YourClass obj) { // Fixed the return
 
 		if (elements.size() != maxSize) {
 			elements.add(obj);
@@ -32,9 +29,9 @@ public class StringQueue implements IQueue {
 
 	}
 
-	@Override
-	public String poll() { // fixed the size bug
-		String element = peek();
+//	@Override
+	public YourClass poll() { // fixed the size bug
+		YourClass element = peek();
 
 		if (elements.size() > 0) {
 			elements.remove(0);
@@ -43,9 +40,9 @@ public class StringQueue implements IQueue {
 		return element;
 	}
 
-	@Override
-	public String remove() { // fixed the remove function
-		String element = poll();
+//	@Override
+	public YourClass remove() { // fixed the remove function
+		YourClass element = poll();
 //		element = "";
 		if (element == null) {
 			throw new NoSuchElementException("there's no element any more");
@@ -55,9 +52,9 @@ public class StringQueue implements IQueue {
 
 	}
 
-	@Override
-	public String peek() {
-		String element;
+//	@Override
+	public YourClass peek() {
+		YourClass element;
 		if (elements.size() > 0) {
 			element = elements.get(0);
 		} else {
@@ -67,9 +64,9 @@ public class StringQueue implements IQueue {
 		return element;
 	}
 
-	@Override
-	public String element() {
-		String element = peek();
+//	@Override
+	public YourClass element() {
+		YourClass element = peek();
 
 		if (element == null) {
 			throw new NoSuchElementException("there's no element any more");
@@ -77,8 +74,10 @@ public class StringQueue implements IQueue {
 
 		return element;
 	}
+	
 	public int getMaxSize() {
 		return maxSize;
 	}
+
 
 }
