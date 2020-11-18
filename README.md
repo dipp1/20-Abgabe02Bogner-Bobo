@@ -51,4 +51,4 @@ Working with GitHub, Generics, JUnit, Javadoc and Maven.
 
 ***
 
-Made by Nina Bogner, Tiberiu-Arthur Nowotny (MSD19)
+Made by Nina Bogner, Bobo (MSD19)
